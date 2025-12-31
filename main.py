@@ -62,10 +62,10 @@ async def on_startup():
     else:
         print("ℹ️ Mode local : webhook non configuré")
 
-import os
+# import os
 
-LOCAL_MODE = os.getenv("LOCAL_MODE") == "1"
+# LOCAL_MODE = os.getenv("LOCAL_MODE") == "1"
 
-if __name__ == "__main__" and LOCAL_MODE:
-    print("🧪 Mode local (polling)")
-    telegram_app.run_polling()
+# if __name__ == "__main__" and LOCAL_MODE:
+#     print("🧪 Mode local (polling)")
+#     telegram_app.run_polling()
